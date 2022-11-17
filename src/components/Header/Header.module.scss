@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    padding: 28px 60px;
+    flex-grow: 1.5;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      padding: 28px 60px;
+      gap: 18px;
+    }
+  }
+}
